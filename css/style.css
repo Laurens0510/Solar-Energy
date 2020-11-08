@@ -1,0 +1,870 @@
+/* mobile */
+@media screen and (max-width: 480px) 
+{
+	/* index */
+	#main
+	{
+		display:grid;
+		grid-template-rows:180px 175px 200px 220px 350px 130px 270px 180px 95px;
+	}
+	header{
+		grid-column:1/2;
+		grid-row:1/2;
+	}
+	
+	#flexasi1
+	{
+		Grid-row:2/3;
+	}
+	
+	#flexsec3
+	{
+		Grid-row:3/4;
+	}
+	#fleximg3{
+		grid-row:4/5;
+	}
+	
+	#flexsec2
+	{
+		grid-row:5/6;
+	}
+	#fleximg2{
+		grid-row:6/7;
+	}
+	
+	#flexsec1
+	{
+		grid-row:7/8;
+	}
+	#fleximg1{
+		grid-row:8/9;
+	}
+	
+	#hamburger:checked ~ ul
+	{
+        display: block;
+    }
+	#hamburger
+	{
+        display: none;
+    }
+
+    #burgericon
+	{
+        position: absolute;
+        top: 35px;
+        right: 45px;
+        transform: scale(2);
+		float: right;
+    }
+
+    ul
+	{
+        display: show;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px #000000 solid;
+        border-top: 1px #000000 solid;
+    }
+
+    ul a:link
+	{
+        color:black;
+        text-decoration: none;
+    }
+
+    ul a:visited
+	{
+        color:black;
+        text-decoration: none;
+    }
+
+    ul a:hover
+	{
+        color:black;
+        text-decoration: none;
+    }
+
+    ul a:active
+	{
+        color:black;
+        text-decoration: none;
+    }
+	
+	video
+	{
+		display: none;
+	}
+	
+	#list
+	{
+		text-align: left;
+		clear: both;
+		float: top;
+		display:none;
+	}
+	
+	
+	#info1
+	{
+		width:100%;
+	}
+
+	
+	#pict1, #pict2
+	{
+		width: 100px;
+		height: 75px;
+		padding-left: 10px;
+	}
+	#pict3
+	{
+		width: 170px;
+		height; 210px;
+	}
+	
+	#footer{
+		grid-row:9/10;
+	}
+	#flexfoot
+	{
+        position: fixed;
+        bottom: -14px;
+        right: 0;
+        width: 50%;
+        height: 10%;
+        padding-left: 5px;
+        z-index: 9999;
+        color: #fff;
+        background-color: #FA0;
+        opacity: 0.5;
+    }
+	/* tot hier index */
+	
+	/* how solar works */
+	#hsw{
+		display:grid;
+		grid-template-columns:464px;
+		grid-template-rows:200px 295px 230px 260px 200px 150px 150px 220px 90px;
+	}
+	
+	header{
+		grid-row:1/2;
+	}
+	
+	#flexsec5hws{
+		grid-row:2/3;
+	}
+	#flexsec3hws{
+		grid-row:3/4;
+	}
+	#flexsec2hws{
+		grid-row:4/5;
+	}
+	#flexsec1hws{
+		grid-row:5/6;
+	}
+	#flexsec4hws{
+		display:none;
+	}
+	#flexsec6hws{
+		display:none;
+	}
+	
+	#flexasi1hws{
+		grid-column:1/2;
+		grid-row:6/7;
+		width:200px;
+		height:150px;
+	}
+	
+	#flexasi1hws{
+		grid-column:1/2;
+		grid-row:6/7;
+	}
+	#pict1hsw{
+		width:150px;
+		height:100px;
+		padding-left:10px;
+	}
+	
+	#flexasi2hws{
+		grid-column:1/2;
+		grid-row:7/8;
+		
+	}
+	#pict2hsw{
+		width:150px;
+		height:100px;
+		padding-left:10px;
+	}
+	
+	#pict3hsw{
+		height:210px;
+		float:center;
+	}
+	
+	#flexsec5hws{
+		width:100%;
+		clear:both;
+	}
+	#flexsec3hws{
+		width:100%;
+		clear:both;
+	}
+	
+	 ul
+	{
+        display: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px #000000 solid;
+        border-top: 1px #000000 solid;
+    }
+
+    ul a:link
+	{
+        color:black;
+        text-decoration: none;
+    }
+
+    ul a:visited
+	{
+        color:black;
+        text-decoration: none;
+    }
+
+    ul a:hover
+	{
+        color:black;
+        text-decoration: none;
+    }
+
+    ul a:active
+	{
+        color:black;
+        text-decoration: none;
+    }
+	/* tot hier howsolarworks */
+	
+	/* eusolar */
+	#eu{
+		display:grid;
+		grid-template-columns:464px;
+		grid-template-rows:200px 860px 160px 160px 260px 70px;
+	}
+	
+	header{
+		grid-row:1/2;
+	}
+	
+	.color{
+		background-color: #D3D3D3;
+	}
+	
+	.TH11, .TH12, .TH13, .TH14, .TH15{
+		display:none;
+	}
+	.TH11, .TH13, .TH15, .TH17{
+		background-color:#FFFFE0;
+	}
+	.TH12, .TH14, .TH16, .TH18{
+		background-color:#BFEFFF;
+	}
+	
+	#flexasi1eu{
+		grid-column:1/2;
+		grid-row:3/4;
+	}
+	#pict1eu{
+		width:200px;
+		height:150px;
+		padding-left:10px;
+	}
+	
+	#flexasi2eu{
+		grid-column:1/2;
+		grid-row:4/5;
+	}
+	#pict2eu{
+		width:220px;
+		height:150px;
+		padding-left:10px;
+	}
+	
+	#flexasi3eu{
+		grid-column:1/2;
+		grid-row:5/6;
+	}
+	#pict3eu{
+		width:170px;
+		height:210px;
+		padding-left:10px;
+	}
+	
+	
+	
+}
+
+/* tablet */
+@media screen and (min-width: 481px) and (max-width: 1179px) 
+{
+	/* index */
+	#main
+	{
+		display:grid;
+		grid-template-columns:170px 580px;
+		grid-template-rows:150px 180px 175px 432px 240px 280px 230px 100px
+	}
+	
+	header
+	{
+		grid-column:1/3;
+		grid-row:2/3;
+		
+	}
+	
+	#flexasi1
+	{
+		grid-column:1/3;
+		grid-row:3/4;
+	}
+	
+	#list
+	{
+		grid-column:1/3;
+		grid-row:4/5;
+	}
+	
+	#flexsec3{
+		clear:both;
+		display:flex;
+		grid-column:2/3;
+		grid-row:5/6;
+		width:100%;
+	}
+	#fleximg3{
+		grid-column:1/2;
+		grid-row:5/6;
+		text-align:center;
+	}
+	#flexsec2{
+		grid-column:2/3;
+		grid-row:6/7;
+	}
+	#fleximg2{
+		clear:both;
+		grid-column:1/2;
+		grid-row:6/7;
+		text-align:center;
+		float:bottom;
+	}
+	
+	#flexsec1{
+		grid-column:2/3;
+		grid-row:7/8;
+	}
+	#fleximg1{
+		grid-column:1/2;
+		grid-row:7/8;
+		text-align:center;
+		float:center;
+	}
+	
+	
+	#hamburger:checked ~ ul
+	{
+        display: none;
+    }
+	#hamburger
+	{
+        display: none;
+    }
+
+    #burgericon
+	{
+        position: absolute;
+        top: 35px;
+        right: 45px;
+        transform: scale(2);
+		float: right;
+		display: none;
+    }
+	
+	 ul
+	{
+        display: show;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px #000000 solid;
+        border-top: 1px #000000 solid;
+    }
+
+    ul a:link
+	{
+        color:black;
+        text-decoration: none;
+    }
+
+    ul a:visited
+	{
+        color:black;
+        text-decoration: none;
+    }
+
+    ul a:hover
+	{
+        color:black;
+        text-decoration: none;
+    }
+
+    ul a:active
+	{
+        color:black;
+        text-decoration: none;
+    }
+	
+	#pict1
+	{
+		width: 150px;
+		height: 100px;
+		
+	}
+	#pict2
+	{
+		width: 100px;
+		height: 75px;
+		
+	}
+	#pict3
+	{
+		width: 170px;
+		height: 210px;
+		
+	}
+	
+	video
+	{
+		width: 100%;
+	}
+	
+	#footer
+	{
+		
+		clear: both;
+		float: bottom;
+		text-align:center;
+		grid-column:1/2;
+		grid-row:8/9;
+	}
+	
+	#flexfoot
+	{
+        position: fixed;
+        bottom: -14px;
+        right: 0;
+        width: 50%;
+        height: 10%;
+        padding-left: 5px;
+        z-index: 9999;
+        color: #fff;
+        background-color: #FA0;
+        opacity: 0.5;
+    }
+	/* tot hier index */
+	
+	/* how solar works */
+	#hsw{
+		display:grid;
+		grid-template-columns:170px 205px 375px;
+		grid-template-rows:150px 200px 220px 50px 400px 250px 275px 100px;
+	}
+	
+	 ul
+	{
+        display: show;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px #000000 solid;
+        border-top: 1px #000000 solid;
+    }
+
+    ul a:link
+	{
+        color:black;
+        text-decoration: none;
+    }
+
+    ul a:visited
+	{
+        color:#5a005a;
+        text-decoration: underline;
+    }
+
+    ul a:hover
+	{
+        color:black;
+        text-decoration: none;
+    }
+
+    ul a:active
+	{
+        color:black;
+        text-decoration: none;
+    }
+	
+	header{
+		grid-column:1/3;
+		grid-row:2/3;
+	}
+	
+	#flexsec1hws{
+		grid-column:1/3;
+		grid-row:3/4;
+		padding-left:5px;
+	}
+	
+	#flexsec2hws{
+		grid-column:3/4;
+		grid-row:3/5;
+		padding-left:5px;
+	}
+	
+	#flexsec3hws{
+		grid-column:1/3;
+		grid-row:4/6;
+		padding-left:5px;
+	}
+	
+	#flexsec4hws{
+		display:none;
+	}
+	
+	#flexsec5hws{
+		grid-column:3/4;
+		grid-row:5/6;
+		padding-left:5px;
+	}
+	
+	#flexsec6hws{
+		grid-column:1/4;
+		grid-row:6/7;
+		padding-left:5px;
+	}
+	
+	#flexasi1hws{
+		grid-column:1/3;
+		grid-row:7/8;
+		text-align:center;
+	}
+	#pict1hsw
+	{
+		width: 300px;
+		height: 200px;
+		
+	}
+	
+	#flexasi2hws{
+		grid-column:3/4;
+		grid-row:7/8;
+		text-align:center;
+	}
+	#pict2hsw
+	{
+		width: 300px;
+		height: 200px;
+	}
+	#pict3hsw
+	{
+		width: 170px;
+		height: 210px;
+		display:none;
+	}
+	
+	#footer
+	{
+		
+		clear: both;
+		float: bottom;
+		text-align:center;
+		grid-column:1/2;
+		grid-row:8/9;
+	}
+	
+	#flexfoot
+	{
+        position: fixed;
+        bottom: -14px;
+        right: 0;
+        width: 50%;
+        height: 10%;
+        padding-left: 5px;
+        z-index: 9999;
+        color: #fff;
+        background-color: #FA0;
+        opacity: 0.5;
+    }
+	/* tot hier howsolarworks */
+	
+	/* eusolar */
+	#eu{
+		display:grid;
+		grid-template-columns:170px 205px 375px;
+		grid-template-rows:150px 200px ;
+	}
+}
+
+/* PC */
+@media screen and (min-width: 1280px) 
+{
+	/* index */
+	#main
+	{
+		display: grid;
+		grid-template-columns:250px 400px 250px 363px;
+		grid-template-rows:250px 250px 710.44px 250px 300px 250px 100px;
+	}
+	
+	header
+	{
+		grid-column:1/3;
+		grid-row:2/3;
+	}
+	
+	#list
+	{
+		grid-column:1/5;
+		grid-row:3/4;
+		padding-bottom:5px;
+	}
+	
+	#flexsec1{
+		grid-column:1/3;
+		grid-row:4/5;
+	}
+	#fleximg1{
+		grid-column:3/4;
+		grid-row:4/5;
+		text-align:center;
+		float:middle;
+	}
+	
+	#flexsec2{
+		grid-column:1/3;
+		grid-row:5/6;
+	}
+	#fleximg2{
+		grid-column:3/4;
+		grid-row:5/6;
+		text-align:center;
+	}
+	
+	#flexsec3{
+		grid-column:1/3;
+		grid-row:6/7;
+	}
+	#fleximg3{
+		grid-column:3/4;
+		grid-row:6/7;
+		text-align:center;
+	}
+	
+	#flexasi1
+	{
+		
+		width: 100%;
+		float: left;
+		grid-column:4/5;
+		grid-row:5/6;
+	}
+	
+	#footer
+	{
+		grid-column:1/2;
+		grid-row:7/8;
+		clear: both;
+		float: bottom;
+	}
+	
+	#hamburger:checked ~ ul
+	{
+        display: none;
+    }
+	#hamburger
+	{
+        display: none;
+    }
+	
+    #burgericon
+	{
+        position: absolute;
+        top: 35px;
+        right: 45px;
+        transform: scale(2);
+		float: right;
+		display: none;
+    }
+	
+	
+	#flexsec1
+	{
+		
+		width: 99%;
+		float: left;
+		padding-left:5px;
+		padding-right:5px;
+	}
+	
+	#pict1{
+		width:200px;
+		height:140px;
+	}
+	
+	#flexsec2
+	{
+		
+		width:99%;
+		float: left;
+		padding-left:5px;
+		padding-right:10px;
+	}
+	#pict2
+	{
+		width: 140px;
+		height: 100px;		
+	}
+	
+	#flexsec3
+	{
+		width: 99%;
+		float: left;
+		padding-left:5px;
+		padding-right:10px;
+	}
+	#pict3
+	{
+		width:170px;
+		height:210px;
+	}
+	
+	video{
+		width:100%;
+	}
+	
+	footer
+	{
+		clear: both;
+		float: bottom;
+	}
+	
+	#flexfoot
+	{
+        position: fixed;
+        bottom: -14px;
+        right: 0;
+        width: 50%;
+        height: 10%;
+        padding-left: 5px;
+        z-index: 9999;
+        color: #fff;
+        background-color: #FA0;
+        opacity: 0.5;
+    }
+	/* tot hier index */
+	
+	/* how solar works */
+	#hsw{
+		display:grid;
+		grid-template-columns:250px 171px 421px 423px;
+		grid-template-rows: 250px 200px 260px 100px 300px 200px 370px 90px;
+	}
+	
+	header{
+		grid-column:1/3;
+		grid-row:2/3;
+	}
+	
+	#flexsec1hws{
+		grid-column:3/4;
+		grid-row:3/6;
+	}
+	
+	#flexsec2hws{
+		grid-column:1/3;
+		grid-row:3/4;
+	}
+	
+	#flexsec3hws{
+		grid-column:4/5;
+		grid-row:3/5;
+	}
+	
+	#flexsec4hws{
+		grid-column:4/5;
+		grid-row:5/6;
+	}
+	
+	#flexsec5hws{
+		grid-column:1/3;
+		grid-row:4/7;
+	}
+	
+	#flexsec6hws{
+		grid-column:3/5;
+		grid-row:6/7;
+	}
+	
+	#flexasi1hws{
+		grid-column:1/3;
+		grid-row:7/8;
+		text-align:center;
+	}
+	#pict1hsw{
+		width:300px;
+		height:200px;
+	}
+	
+	#flexasi2hws{
+		grid-column:3/4;
+		grid-row:7/8;
+		text-align:center;
+	}
+	#pict2hsw{
+		width:300px;
+		height:200px;
+	}
+	
+	#flexasi3hws{
+		grid-column:4/5;
+		grid-row:7/8;
+		text-align:center;
+	}
+	#pict3hsw{
+		width:300px;
+		height:350px;
+	}
+	
+	
+	#footer
+	{
+		grid-column:1/4;
+		grid-row:8/9;
+		float: bottom;
+	}
+	
+	#flexfoot
+	{
+        position: fixed;
+        bottom: -14px;
+        right: 0;
+        width: 50%;
+        height: 10%;
+        padding-left: 5px;
+        z-index: 9999;
+        color: #fff;
+        background-color: #FA0;
+        opacity: 0.5;
+    }
+}
+
