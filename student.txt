@@ -1,0 +1,4 @@
+Student name: Laurens de Groot.
+Student number: 667186.
+Student class: inf1C1.
+https://github.com/Laurens0510/Solar-Energy.git
